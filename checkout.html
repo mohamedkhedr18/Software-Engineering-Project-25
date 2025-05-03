@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+    <main>
+        <form id="checkout-form">
+            <h2>Shipping Address</h2>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Address" required>
+            
+            <h2>Payment</h2>
+            <div id="card-element"> <!-- Stripe/PayPal integration --> </div>
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+    <script src="js/checkout.js"></script>
+</body>
+</html>

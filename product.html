@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Similar head content as index.html -->
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+
+    <main class="product-page">
+        <div class="container">
+            <div class="product-detail">
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img src="assets/images/products/1.jpg" alt="Product" id="main-product-image">
+                    </div>
+                    <div class="thumbnail-gallery">
+                        <!-- Thumbnails will be generated via JS -->
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h1 class="product-title">Premium Wireless Headphones</h1>
+                    <div class="product-meta">
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span class="review-count">(142 reviews)</span>
+                        </div>
+                        <div class="sku">SKU: HD-2023-BLK</div>
+                        <div class="availability in-stock">In Stock</div>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$199.99</span>
+                        <span class="original-price">$249.99</span>
+                        <span class="discount">20% OFF</span>
+                    </div>
+                    <div class="product-description">
+                        <p>Experience premium sound quality with our latest wireless headphones. Featuring noise cancellation, 30-hour battery life, and comfortable over-ear design.</p>
+                        <ul class="features-list">
+                            <li>Active Noise Cancellation</li>
+                            <li>30-hour playtime</li>
+                            <li>Bluetooth 5.0</li>
+                            <li>Built-in microphone</li>
+                        </ul>
+                    </div>
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <button class="quantity-btn minus">-</button>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                        <button class="btn btn-outline wishlist-btn">
+                            <i class="far fa-heart"></i> Wishlist
+                        </button>
+                    </div>
+                    <div class="product-meta-footer">
+                        <div class="meta-item">
+                            <i class="fas fa-truck"></i>
+                            <span>Free shipping on orders over $50</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-undo"></i>
+                            <span>30-day return policy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Tabs -->
+            <div class="product-tabs">
+                <ul class="tabs-nav">
+                    <li class="active">Description</li>
+                    <li>Specifications</li>
+                    <li>Reviews (142)</li>
+                </ul>
+                <div class="tabs-content">
+                    <!-- Tab content will be loaded via JS -->
+                </div>
+            </div>
+
+            <!-- Related Products -->
+            <section class="related-products">
+                <h2 class="section-title">You May Also Like</h2>
+                <div class="products-grid">
+                    <!-- Related products will be loaded via JS -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+
+    <script src="js/product.js"></script>
+</body>
+</html>
