@@ -1,0 +1,64 @@
+/* admin-users.css */
+.admin-users-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.users-table th,
+.users-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.users-table th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.users-table tr:hover {
+    background: #f8f9fa;
+}
+
+.user-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.admin-user-form {
+    margin-top: 3rem;
+}
+
+.admin-user-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.admin-user-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.admin-user-form input,
+.admin-user-form select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: var(--admin-border-radius);
+}
+
+.admin-user-form .form-row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.admin-user-form .form-row .form-group {
+    flex: 1;
+}

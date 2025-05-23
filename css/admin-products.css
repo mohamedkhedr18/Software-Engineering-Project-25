@@ -1,0 +1,69 @@
+/* admin-products.css */
+.admin-products-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.products-table th,
+.products-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.products-table th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.products-table tr:hover {
+    background: #f8f9fa;
+}
+
+.product-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.admin-product-form {
+    margin-top: 3rem;
+}
+
+.admin-product-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.admin-product-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.admin-product-form input,
+.admin-product-form textarea,
+.admin-product-form select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: var(--admin-border-radius);
+}
+
+.admin-product-form textarea {
+    min-height: 120px;
+}
+
+.admin-product-form .form-row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.admin-product-form .form-row .form-group {
+    flex: 1;
+}

@@ -1,0 +1,91 @@
+/* Admin Styles */
+.admin-dashboard, .admin-users, .admin-products {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.admin-nav {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.admin-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.stat-card {
+    background: var(--light);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    text-align: center;
+}
+
+.stat-card h3 {
+    font-size: 1rem;
+    color: var(--gray);
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--gray-light);
+}
+
+th {
+    background: var(--light);
+    font-weight: 600;
+}
+
+tr:hover {
+    background: rgba(37, 99, 235, 0.05);
+}
+
+.add-user, .add-product {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--gray-light);
+}
+
+.btn-danger {
+    background: var(--danger);
+    color: white;
+}
+
+.btn-danger:hover {
+    background: #dc2626;
+}
+
+.admin-login {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.admin-login h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}

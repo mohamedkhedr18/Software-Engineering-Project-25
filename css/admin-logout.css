@@ -1,0 +1,21 @@
+/* admin-logout.css */
+.admin-logout-container {
+    max-width: 500px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: var(--admin-border-radius);
+    box-shadow: var(--admin-box-shadow);
+    text-align: center;
+}
+
+.admin-logout-message {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+}
+
+.admin-logout-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
